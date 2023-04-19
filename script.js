@@ -4,11 +4,7 @@ class myHeader extends HTMLElement {
         this.innerHTML = `
             <header class="header">
                 <h1><a href="index.html">Devin Padrón</a></h1>
-                <div class="menu">
-                    <p>Projects</p>
-                    <p><a href="blog.html">Blog</a></p>
-                    <p><a href="aboutMe.html">About Me</a></p>
-                </div>
+                <p><a href="aboutMe.html">About Me</a></p>
             </header>
         `
     }

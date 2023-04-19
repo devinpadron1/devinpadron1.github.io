@@ -2,6 +2,49 @@
     border: 1px solid red;
 } */
 
+#mid {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutMe {
+    text-align: justify;
+    width: 400px;
+}
+
+#aboutMe p {
+    margin-bottom: 20px;
+}
+
+p a {
+    color: black;
+    font-weight: 600;
+}
+
+blockquote {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+#quote {
+    margin-bottom: 10px !important;
+}
+.quoter {
+    margin-bottom: 0 !important;
+}
+  
+
+.pic {
+    width: 300px;
+    height: auto;
+    align-self: flex-start;
+    margin: 0 40px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -21,9 +64,9 @@ p {
     margin: 0;
 }
 
-a {
+.header a {
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 /* Header Items */
