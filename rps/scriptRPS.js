@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     playerPoints++;
                 }
                 else {
-                    resultMessage("Rock losses to Paper. You lose. :-(");
+                    resultMessage("Rock loses to Paper. You lose. :-(");
                     computerPoints++;
                 }
             } else if (playerSelection == "scissors") {
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     playerPoints++;
                 }
                 else {
-                    resultMessage("Scissors losses to Rock. You lose. :-(");
+                    resultMessage("Scissors loses to Rock. You lose. :-(");
                     computerPoints++;
                 }
             } else { //if player selects paper
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     playerPoints++;
                 }
                 else {
-                    resultMessage("Paper losses to Scissors. You lose. :-(");
+                    resultMessage("Paper loses to Scissors. You lose. :-(");
                     computerPoints++;
                 }
         }
