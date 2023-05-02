@@ -118,7 +118,7 @@ h2 {
 }
 
 .project {
-    width: 400px;
+    width: auto;
     height: 300px;
     border: 2px solid rgb(16, 86, 16);
     background-color: darkgray;
