@@ -1,6 +1,5 @@
 #mid {
-    display: flex;
-    justify-content: center;
+
 }
 
 #aboutMe {
@@ -45,7 +44,7 @@ blockquote {
     width: 300px;
     height: auto;
     align-self: flex-start;
-    margin: 0 50px;
+    margin: 0 10px;
 }
 
 body {
@@ -108,25 +107,45 @@ h1 {
 h2 {
     color:rgb(16, 86, 16);
     display: block;
-    margin: 0;
+    margin: 10px;
 }
 
-.grid {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 50px;
+    justify-items: center;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
 }
 
-.project {
-    width: auto;
-    height: 300px;
-    border: 2px solid rgb(16, 86, 16);
-    background-color: darkgray;
-    margin: 20px 20px;
+@media screen and (max-width: 600px) {
+    .project-container {
+      grid-template-columns: 1fr;
+      width: 100%;
+      max-width: 600px;
+    }
 }
 
-.rpsProject {
-    margin-top: 5px;
+.project-item {
+    text-align: center;
+    flex: 0 0 calc(50% - 40px);
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.project-item img {
+    max-width: 300px;
+    height: auto;
+}
+  
+.project-item div {
+    font-weight: bold;
+}
+  
+.project-item p {
+    margin-top: 10px;
 }
 
 .group {
@@ -279,3 +298,15 @@ button:hover {
     border: 1px solid black;
     background-color: white;
 }
+
+.blog {
+    color: black;
+}
+
+.project-item img {
+    width: 300px;
+    height: 300px;
+}
+
+#linkedin:hover { background-color: #0077b5; }
+#github:hover { background-color: black; }
